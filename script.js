@@ -1,5 +1,7 @@
 $(document).ready(function() {
-  const mainRoot = "https://754903f2-d188-407f-85a3-0fb84124f855-00-3hrs11h08s3p9.worf.replit.dev/v1";
+  const mainRoot = "https://springweb-7.onrender.com/v1";                                                 // REMOTE ROOT RENDER
+  // const mainRoot = "https://754903f2-d188-407f-85a3-0fb84124f855-00-3hrs11h08s3p9.worf.replit.dev/v1";       // REMOTE ROOT REPLIT
+  // const mainRoot = "http://localhost:8080/v1";                                                               // LOCAL
   const apiRoot = `${mainRoot}/tasks`;
   const trelloApiRoot = `${mainRoot}/trello`;
   const datatableRowTemplate = $('[data-datatable-row-template]').children()[0];
